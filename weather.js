@@ -1,7 +1,10 @@
-const API_BASE = "https://api.open-meteo.com/v1/forecast"; 
-Create .gitignore;
-text 
-.DS_Store 
-.vscode/ 
-Create README.md;
-markdown
+{
+    const el = document.getElementById("error-msg");
+    el.textContent = msg;
+    el.classList.remove("hidden");
+    setTimeout(() => el.classList.add("hidden"), 4000);
+}
+function clearError() {
+    const el = document.getElementById("error-msg");
+    el.classList.add("hidden");
+}
