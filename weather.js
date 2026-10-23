@@ -1,0 +1,7 @@
+const API_BASE = "https://api.open-meteo.com/v1/forecast"; 
+Create .gitignore;
+text 
+.DS_Store 
+.vscode/ 
+Create README.md;
+markdown
