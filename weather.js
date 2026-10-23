@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function displayCurrentWeather(data, location) {
 const c = data.current;
 const container = document.getElementById("current-weather");
@@ -16,3 +17,12 @@ const map = {
 };
 return map[code] || "Unknown";
 }
+=======
+const API_BASE = "https://api.open-meteo.com/v1/forecast"; 
+Create .gitignore;
+text 
+.DS_Store 
+.vscode/ 
+Create README.md;
+markdown
+>>>>>>> 03f8c6e3ad76305eb367207e52803fdb59465a4d
